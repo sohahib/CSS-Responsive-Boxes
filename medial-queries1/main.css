@@ -1,3 +1,44 @@
 body {
+  margin: 0;
+  padding: 0;
   background: blanchedalmond;
+  font-size: 3em;
+  height: 100%;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+}
+.container div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  background-color: aquamarine;
+  margin: 5px;
+}
+.container .a{
+  height: 20vh;
+}
+.container .b{
+  height: 60vh;
+}
+.container .c{
+  height: 20vh;
+}
+
+@media (min-width: 600px){
+  .container{
+    display: flex;
+    
+  }
+  .container .a{
+  }
+  .container .b{
+
+  }
+  .container .c {
+  }
 }
